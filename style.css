@@ -19,6 +19,7 @@ img {
 
 section{
   margin: 0;
+  margin-top: 1rem;
 }
 
 p {
@@ -29,6 +30,10 @@ h1{
   font-family: 'young serif';
   font-size: 2rem;
   font-weight: 400;
+}
+
+h2{
+  margin: 0;
 }
 
 ol, ul, li {
@@ -69,6 +74,10 @@ li::marker{
 
 .summary ul li::marker{
   color: hsl(332, 51%, 32%);
+}
+
+.section-headings{
+  color: hsl(14, 45%, 36%);
 }
 
 .list-lables{
