@@ -8,7 +8,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
+  - [Built with](#Built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -17,11 +17,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Overview
 
 ### Screenshot📸
-- Desktop 🖥️:
+
+- Desktop🖥️:
 
 ![](./assets/images/Thumbnail-Desktop.png)
 
-- Mobile 📱: 
+- Mobile📱:
 
 ![](./assets/images/Thumbnail-Mobile.png)
 
@@ -31,13 +32,13 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## My process
 
-## Built with🏗️
+### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Flexbox
 
-## Useful resources 📈
+### Useful resources
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) - An excellent resource to make quick referrals, and the demo code provided helps me to better understand the code I write.🚀
 
