@@ -25,8 +25,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ![](./assets/images/Thumbnail-Mobile.png)
 
-- A screenshot of my final solution.
-
 ### Links🔗
 
 - [My live website](https://suzzy-dszy.github.io/Social-Links-Profile/)
