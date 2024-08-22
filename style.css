@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 
-main{
+main {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -17,7 +17,7 @@ img {
   border-radius: 10px;
 }
 
-section{
+section {
   margin: 0;
   margin-top: 1rem;
 }
@@ -26,65 +26,121 @@ p {
   font-size: 16px;
 }
 
-h1{
-  font-family: 'young serif';
+h1 {
+  font-family: "young serif";
   font-size: 2rem;
   font-weight: 400;
 }
 
-h2{
+h2 {
   margin: 0;
 }
 
-ol, ul, li {
+hr {
+  width: 100%;
+  border: 1px solid hsl(30, 18%, 87%);
+}
+
+/* Global List Styles */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: outside;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-top: 0;
   padding: 0.5rem;
   padding-left: 1rem;
 }
 
-li::marker{
+li::marker {
   color: hsl(14, 45%, 36%);
 }
+
+/* End */
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-content: center;
-  width: 40vw;
+  width: 45vw;
   background-color: #fff;
-  padding: 2rem 3rem;
+  padding: 2rem 2rem;
   margin: 5rem;
   border-radius: 20px;
 }
 
-.summary{
-  padding: 1rem;
-  background-color:  hsl(330, 100%, 98%);
+/* Global List Styles */
+.section-headings {
+  font-family: "young serif";
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 0;
 }
 
-.prep-time{
+.list-lables {
+  font-weight: 700;
+  color: hsl(30, 10%, 34%);
+}
+
+/* Summary Section Styles */
+.summary {
+  padding: 1rem;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  width: 100%;
+  padding-right: 0;
+}
+
+.prep-time {
   color: hsl(332, 51%, 32%);
   margin-bottom: 0;
 }
 
-.prep-list{
+.prep-list {
   margin-top: 0;
-  margin-left: 5px;
+  margin-bottom: 0;
 }
 
-.summary ul li::marker{
+.summary ul li::marker {
   color: hsl(332, 51%, 32%);
 }
 
-.section-headings{
+/* Instructions Section Styles */
+.instructions li {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Nutrition Section Styles */
+.nutrition p {
+  margin-bottom: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 1rem;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  text-align: left;
+}
+
+.tbl-data {
   color: hsl(14, 45%, 36%);
 }
 
-.list-lables{
-  font-weight: 700;
-  color:  hsl(30, 10%, 34%);
+tr:last-child td {
+  border-bottom: none;
 }
 
+/* Footer styles */
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -105,4 +161,12 @@ li::marker{
   font-optical-sizing: auto;
   font-weight: 400, 600, 700;
   font-style: normal;
+}
+
+/* Mobile Styles */
+@media (max-width: 560px) {
+  .container {
+    margin: 0;
+    width: 100vw;
+  }
 }
