@@ -21,6 +21,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ![](./assets/images/Thumbnail-Desktop.png)
 
 - Mobile 📱: 
+
 ![](./assets/images/Thumbnail-Mobile.png)
 
 - A screenshot of my final solution.
