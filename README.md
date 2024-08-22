@@ -31,13 +31,13 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## My process
 
-### Built with🏗️
+## Built with🏗️
 
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Flexbox
 
-### Useful resources 📈
+## Useful resources 📈
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) - An excellent resource to make quick referrals, and the demo code provided helps me to better understand the code I write.🚀
 
